@@ -1,0 +1,114 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background: #fff;
+  color: #666;
+  font-family: "SimSun", "宋体", "Arial Narrow";
+}
+ul,
+ol {
+  list-style-type: none;
+}
+select,
+input,
+img,
+select {
+  vertical-align: middle;
+}
+img {
+  display: block;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: '微软雅黑', 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
+}
+h1 a {
+  color: #c12c42;
+  font-size: 16px;
+}
+/*以上为重置样式*/
+.flex-container {
+  display: flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*# sourceMappingURL=layout.css.map */
+a {
+  color: #42b983;
+}
+input {
+  border: 1px solid #999;
+  height: 36px;
+  line-height: 36px;
+  padding: 8px  10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 20px;
+  outline: none;
+}
+button {
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  box-sizing: border-box;
+  background: #42b983;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
