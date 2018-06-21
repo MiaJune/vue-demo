@@ -4,7 +4,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state:{
-    count: 0
+    count: 0,
+    num: 2
   },
 
   mutations:{  //是唯一可以改变store内值得方法
